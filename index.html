@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Budi Permana Putra</title>
+    <script src="https://kit.fontawesome.com/faf3e9d810.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo2.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portofolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Yoga</span> Budi <br> from Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/yogaa.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                        <p class="about-paragraph">
+                            My name is Yoga Budi Permana Putra, I’m a Telecommunication Engineering Diploma 4
+                            student majoring in Electronics and Electrical Engineering at Polytechnic State of Bandung, Batch
+                            2018. l also have a huge interest in technological development especially in Software Development
+                            field with growing knowledge in Golang, Python, SQL. Graduate from Digitalent X Hacktiv8 “Scallable
+                            Web Service With Golang” and create myGram API as Bootcamp Final Project.
+                        </p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>
+                                    Web App Development with HTML, CSS and Javascript</li>
+                                <li><span>App Development</span><br>
+                                    Design and building Android/IOS Apps with Flutter</li>
+                                <li><span>Video Editing & Graphic Design</span><br>
+                                    Fluent working with Premiere Pro, Photoshop and Corel Draw</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>September 2021 - December 2021</span><br>
+                                    Internship at PT. Telekomunikasi Indonesia Tbk.</li>
+                                    </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2013</span><br>
+                                    MTs. Al-Inayah</li>
+                                <li><span>2016</span><br>
+                                    MA. Al-Inayah</li>
+                                <li><span>2018</span><br>
+                                    Politeknik Negeri Bandung <br> Telecommunication Engineering Diploma 4</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- --------------------services-------------------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/wok3.png" alt="">
+                <div class="layer">
+                    <h3>Mygram API</h3>
+                    <p>Dummy Project clone instagram API with based golang and PostgreSQL that allows users to upload picture, give comment to a picture.</p>
+                    <a href="https://github.com/bangagoyz/FinalProject_MyGram"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/wok2.png" alt="">
+                <div class="layer">
+                    <h3>Car API</h3>
+                    <p>Project to learn Mocking Test on google language</p>
+                    <a href="https://github.com/bangagoyz/chapter3_3"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>SIPERON App</h3>
+                    <p>library application for recording borrowing books, 
+                        returning books, and recording library visitors. the app also working with webservice base express Javascript</p>
+                    <a href="https://github.com/bangagoyz/library_flutter"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/bangagoyz" class="btn">See more...</a>
+    </div>
+</div>
+
+<!-- -------------------------contact--------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>yogapermanabudi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>082122720321</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/yogabpp__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/yogapermanabudi"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/yoga-budi-permana-putra-b62247256/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV_Yoga Budi Permana.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yoga.</p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add('active-tab')
+
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby_OsHmGLXc0u-tYR3tIvbtDBxoskM99494x-2C2MM89K0d0xUIRnPR-VPQePt6N6mcAA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
